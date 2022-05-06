@@ -1,0 +1,85 @@
+header{
+    width: 100%;
+    height: 10rem;
+
+    background: var(--main-color);
+}
+
+header h1{
+    font-size: 3.3rem;
+
+    text-align: center;
+    color: white;
+}
+
+#addTask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+#addTask h2{
+    font-size: 2.3rem;
+
+    margin-top: 2rem;
+}
+
+#addTask input{
+    width: 25rem;
+    height: 4rem;
+
+    font-size: 1.6rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 8px;
+
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#addTask #time{
+    cursor: pointer;
+}
+
+#addTask button{
+    width: 20rem;
+    height: 3rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 8px;    
+
+    margin-top: 3rem;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    color: white;
+    background-color: var(--main-color);
+
+    cursor: pointer;
+}
+
+#addTask button:hover{
+    filter: brightness(1.1);
+}
+
+.card{
+    margin: 3rem auto auto auto;
+    padding: 1rem;
+
+    font-size: 2rem;
+
+    background-color: var(--main-color);
+    color: white;
+
+    width: 50%;
+    height: 5rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 8px;
+
+    text-align: center;
+}
